@@ -1,0 +1,458 @@
+@import url("https://fonts.googleapis.com/css2?family=Moderustic&family=SUSE:wght@600&display=swap");
+
+:root {
+  --clr-white: #fff;
+  --clr-black: #111;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: var(--clr-white);
+  font-family: "Moderustic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+/* ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+ul li {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid var(--clr-white);
+  position: relative;
+  transform: translateY(0);
+  transition: 0.2s ease-in-out;
+}
+
+ul li:hover {
+  transform: translateY(-0.625rem);
+  cursor: pointer;
+}
+
+ul li::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: hsl(0deg 0% 6.67% / 20%);
+}
+
+ul li span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font-size: 0.6rem;
+  color: var(--clr-white);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul li + li {
+  margin-left: -0.625rem;
+}
+
+ul img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+} */
+
+main {
+  padding-block: min(20vh, 2rem);
+  width: calc(min(70rem, 90%));
+  margin-inline: auto;
+  color: var(--clr-black);
+  position: relative;
+}
+
+main .heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+main .heading h1 {
+  letter-spacing: 0.025em;
+  font-size: clamp(2.5rem, 1.6351rem + 4.3243vw, 6.5rem);
+  line-height: 1;
+  font-family: "SUSE", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+main .heading aside {
+  margin-top: 1.5em;
+  max-width: 16.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+main .heading aside p {
+  font-size: 0.9rem;
+  color: var(--clr-black);
+  line-height: 1.5;
+}
+
+main .container {
+  margin-top: 2em;
+  display: grid;
+  gap: 1.5rem;
+}
+
+main .container {
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 3.5em;
+  gap: 2rem;
+}
+
+main .card {
+  padding-block: 1rem;
+  background: var(--clr-white);
+  border-radius: 1.2rem;
+  position: relative;
+  height: 24rem;
+}
+
+main .card p {
+  position: absolute;
+  right: 0;
+  top: -1.25rem;
+}
+
+main .card p a {
+  font-size: 0.9rem;
+  display: inline-block;
+  color: var(--clr-black);
+}
+
+main .card p a:hover {
+  font-weight: 600;
+}
+
+main .card .card-inner {
+  position: relative;
+  width: inherit;
+  height: inherit;
+  border-bottom-right-radius: 0;
+}
+
+main .card .card-inner .box {
+  width: 100%;
+  height: 100%;
+  background: var(--clr-white);
+  border-radius: 1.2rem;
+  overflow: hidden;
+}
+
+main .card .card-inner .box .imgBox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+main .video {
+  height: 20rem;
+  align-self: flex-end;
+}
+
+.poster {
+  position: relative;
+  display: inline-flex;
+}
+
+.poster:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: url("https://images.unsplash.com/photo-1534361960057-19889db9621e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  transition: 1s ease;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.poster-active:after {
+  opacity: 0;
+  pointer-events: none;
+}
+
+
+/* major projects css start */
+
+
+/**General styles**/
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.projects
+{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  /* font-family: 'Open Sans', sans-serif; */
+}
+
+
+/**Body style: setting background gradient**/
+
+.projects {
+  /* background-color: #e5ecef; */
+  background-color: rgba(241, 241, 241, 0.39);
+  background-image: linear-gradient( to top right, #bbc2c5, #b8bfc2, #e5ecef 60%);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  
+}
+
+/*Main style*/
+
+main{
+  min-height: 100%;
+  margin-bottom: -60px; 
+}
+
+main:after{
+  content: "";
+  display: block;
+}
+
+/* footer, main:after {
+  height: 60px; 
+} */
+
+/**Card styles: general**/
+
+.quote-card {
+  width: 100%;
+  width: 1200px;
+  height: 50vh;
+  background-color: #023660;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 25px 60px -10px #000;
+  border-radius: 20px;
+}
+
+
+/**Card navigation styles**/
+
+.card-navigation {
+  float: left;
+  text-align: center;
+  width: 25%;
+  height: 100%;
+  background-image: url(https://i.imgur.com/mfkTSXu.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  /* border-radius: 20px; */
+}
+
+.layer {
+  background-color: rgba(39, 40, 51, 0.87);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25%;
+  height: 100%;
+}
+
+.quote-sign {
+  font-family: 'Palanquin Dark', sans-serif;
+  font-size: 120px;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  margin-top: -75px;
+  color: rgba(255, 255, 255, 0.1);
+}
+
+.quote-arrows {
+  position: absolute;
+  bottom: 25px;
+  left: 50px;
+  content: "";
+  display: block;
+  height: 14px;
+  width: 14px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.quote-arrows.arrow-left,
+.quote-arrows.arrow-left:visited {
+  border-bottom: 2px solid #fff;
+  border-left: 2px solid #fff;
+  float: left;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.quote-arrows.arrow-right,
+.quote-arrows.arrow-right:visited {
+  border-bottom: 2px solid #fff;
+  border-left: 2px solid #fff;
+  float: right;
+  -webkit-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+  margin-left: 40px;
+}
+
+.quote-arrows.arrow-left:hover,
+.quote-arrows.arrow-right:hover {
+  opacity: 0.5;
+}
+
+
+/**Card body styles**/
+
+.card-body {
+  color: #feffff;
+  width: 63%;
+  float: left;
+  padding-left: 30px;
+  padding-top: 45px;
+}
+
+.quote-text {
+  font-size: 20px;
+  /* text-transform: uppercase; */
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 35px;
+  font-weight: 800;
+}
+
+/* .font-change {
+  font-family: 'Palanquin Dark', sans-serif;
+} */
+
+.quote-author {
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+
+/**Card social button styles**/
+
+/* .card-social {
+  width: 12%;
+  float: right;
+  padding-top: 20px;
+}
+
+.card-social button.heart-num {
+  background: rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 15px;
+  padding: 7px 13px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.card-social button.heart-num:hover .like {
+  color: #F2495A;
+  transition: ease-in 0.5s;
+}
+
+.card-social button.heart-num:focus {
+  outline: 0;
+}
+
+.card-social button.heart-num:active .like {
+  color: #F2495A;
+  -webkit-animation-name: pulse;
+  -moz-animation-name: pulse;
+  -webkit-animation-duration: 0.5s;
+  -moz-animation-duration: 0.5s;
+} */
+
+/*Keyframes for pulse effect*/
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.7);
+    transform: scale(1.7);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@-moz-keyframes pulse {
+  0% {
+    -moz-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -moz-transform: scale(1.7);
+    transform: scale(1.7);
+  }
+  100% {
+    -moz-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+
+
+/* major projects css end */

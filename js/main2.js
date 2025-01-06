@@ -53,3 +53,6 @@ const startAutoSlide = () => {
 
 startAutoSlide(); 
 // Start the slideshow
+
+
+

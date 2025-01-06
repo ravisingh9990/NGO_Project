@@ -7,11 +7,13 @@
                 <source src="https://videos.pexels.com/video-files/12851353/12851353-uhd_2560_1440_60fps.mp4" type="video/mp4" />
               </video>
             <video autoplay muted playsinline>
-                <source src="https://videos.pexels.com/video-files/18983696/18983696-uhd_2560_1440_50fps.mp4" type="video/mp4" />
+                <source src="https://videos.pexels.com/video-files/8190074/8190074-uhd_2732_1440_30fps.mp4" type="video/mp4" />
               </video>
             <video autoplay muted playsinline>
-                <source src="https://videos.pexels.com/video-files/3695991/3695991-hd_1920_1080_24fps.mp4" type="video/mp4" />
+                <source src="https://videos.pexels.com/video-files/5598970/5598970-uhd_2560_1440_24fps.mp4" type="video/mp4" />
               </video>
+           
+            
             <!-- <img src="https://images.unsplash.com/photo-1518640027989-a30d5d7e498e?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=f9575732a498c98486879d7000ab1d47" alt="">
             <img src="https://images.unsplash.com/photo-1505843378597-b96befae716e?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=9e69634f39ec7c08514fef902cfc85ac" alt="">
             <img src="https://images.unsplash.com/photo-1471138406156-7a89e687a062?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=7820fc816715b37942a793360b785c60" alt="">-->
@@ -647,7 +649,7 @@ I wish them success in the year ahead and also look forward to working with them
 
 
         <!-- Blog Start -->
-        <div class="blog">
+        <!-- <div class="blog">
             <div class="container">
                 <div class="section-header text-center">
                     <p>Our Blog</p>
@@ -707,7 +709,7 @@ I wish them success in the year ahead and also look forward to working with them
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Blog End -->
 
         <!-- our partners gallery Start -->
