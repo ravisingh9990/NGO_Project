@@ -1,9 +1,8 @@
 <?php include "includes/header.php"; ?>
 <link rel="stylesheet" href="css/childrights.css">
-<link rel="stylesheet" href="css/childrightsfocus.css">
 
 
- <style>
+<style>
         *,
         *::before,
         *::after {
@@ -244,7 +243,7 @@
                         transform: translateX(-50%) scale(1);
                 }
         }
-</style> 
+</style>
 
 <!-- Page Header Start -->
 <div class="page-header-about">
@@ -264,100 +263,61 @@
         <div>
                 <h1 style="font-size: 40px;">Child Rights
                         & Education</h1>
-
-
-                        <div class="container">
-                <div class="card">
-                        <div class="card-inner">
-                                <div class="box">
-                                        <div class="imgBox">
-                                                <img src="img/child rights/3.jpeg" alt="Awesome views">
+                <div class="container">
+                        <div class="card">
+                                <div class="card-inner">
+                                        <div class="box">
+                                                <div class="imgBox">
+                                                        <img src="img/childrights/3.jpeg" alt="Awesome views">
+                                                </div>
                                         </div>
-                                        <!-- <div class="more">
-                                                <ul>
-                                                        <li><img src="https://plus.unsplash.com/premium_photo-1672115680958-54438df0ab82?q=80&w=1784&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></li>
-                                                        <li><img src="https://images.unsplash.com/photo-1600298882283-40b4dcb8b211?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></li>
-                                                        <li><img src="https://plus.unsplash.com/premium_photo-1667987781458-c45c1ad5dfe1?q=80&w=2051&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></li>
-                                                        <li><img src="https://images.unsplash.com/photo-1600298882698-312a4137fd33?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""><span>50+</span></li>
-                                                </ul>
-                                        </div> -->
-                                        <!-- <div class="tag">
-                                                <a href="#">#Awesome views</a>
-                                        </div> -->
-
+                                </div>
+                        </div>
+                        <div class="card video">
+                                <div class="card-inner">
+                                        <div class="box">
+                                                <div class="imgBox">
+                                                        <img src="img/childrights/2.jpeg" alt="childrights">
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="card">
+                                <div class="card-inner">
+                                        <div class="box">
+                                                <div class="imgBox">
+                                                        <img src="img/childrights/1.jpeg" alt="childrights">
+                                                </div>
+                                                <div class="more">
+                                                </div>
+                                        </div>
                                 </div>
                         </div>
                 </div>
-                <div class="card video">
-                        <div class="card-inner">
-                                <div class="box">
-                                        <!-- <div class="videoBox poster">
-                                                
-                                                <iframe width="100%" height="100%" src="videos/1vid.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                                        </div> -->
-                                        <div class="imgBox">
-                                                <img src="img/child rights/2.jpeg" alt="childrights">
-                                        </div>
-                                        <!-- <div class="tag">
-                                                <a href="#">#Pet friendly</a>
-                                        </div> -->
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
 
-                                </div>
-                        </div>
-                </div>
-                <div class="card">
-                        <!-- <p><a href="event.html">More about Child Rights & Education</a> </p> -->
-                        
-                        <div class="card-inner">
-                                <div class="box">
-                                        <div class="imgBox">
-                                                <img src="img/child rights/1.jpeg" alt="childrights">
-                                        </div>
-
-                                        <div class="more">
-                                                <!-- <a href="#" class="arrow"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                                                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-                                                        </svg></a> -->
-
-                                        </div>
-                                        <!-- <div class="tag">
-                                                <a href="#">#Hiking</a>
-                                        </div> -->
-
-                                </div>
-                        </div>
-                </div>
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        
                 <aside>
                         <p style="line-height: 1.8; font-size: 18px;">
-                                Global Pathfields adopts a rights-based approach to create lasting improvements in the lives of vulnerable children and their communities in India. The organization focuses on key areas such as education, healthcare, nutrition, child protection, and community development, addressing children’s unique needs and empowering civil society to tackle development challenges collaboratively.
+                                Global Pathfields employs a rights-based approach to improve the lives of vulnerable children and communities in India. Focusing on education, healthcare, nutrition, child protection, and community development, it empowers civil society to address development challenges collaboratively. The organisation prioritizes quality education, especially for girls, bridges learning gaps, and enhances teacher availability. It also supports policy reforms, capacity building, and community-based child protection to combat gender-based violence and promote women’s empowerment.</p>
 
-                                Recognizing that children’s rights and education are pivotal to inclusive growth, sustainable development, and democracy, Global Pathfields prioritizes access to quality education, bridging learning gaps, and improving infrastructure and teacher availability.
-
-                                The organization provides technical assistance for policy reforms, program implementation, capacity building, monitoring, evaluation, and research. It emphasizes delivering quality education, particularly for girls, enhancing teachers’ skills, and strengthening School Management Committees to ensure better learning outcomes. Additionally, it focuses on community-based child protection mechanisms to combat gender-based violence and promote women’s empowerment.
-                        </p>
-                        <!-- <p>Since 2021</p> -->
                 </aside>
         </div>
-        
+
 </main>
-
-
 <!-- Images section end -->
 
-<!-- Key focus areas start-->
 
+
+<!-- Key focus areas start-->
 <section class="intro">
         <div class="container">
                 <h1>Key Focus Areas &darr;</h1>
-                <!-- <p>Timeline v2 <a href="https://codepen.io/tutsplus/pen/zYQqPYG" target="_blank">here</a></p> -->
+
         </div>
 </section>
 
@@ -371,13 +331,13 @@
                 <li>
                         <div>
                                 <time></time>Promoting quality learning in pre-schools for all children of 3-6
-                                        years of age
+                                years of age
                         </div>
                 </li>
                 <li>
                         <div>
                                 <time></time>Promoting quality learning in schools for all children, especially
-                                        girls, in Class I-XII
+                                girls, in Class I-XII
                         </div>
                 </li>
                 <li>
@@ -398,7 +358,7 @@
                 <li>
                         <div>
                                 <time></time>Inclusion and Equity for Marginalised and Underprivileged
-                                        Children
+                                Children
                         </div>
                 </li>
                 <li>
@@ -409,60 +369,61 @@
                 <li>
                         <div>
                                 <time></time>Evidence Based Advocacy at the state, national and international
-                                        level
+                                level
                         </div>
                 </li>
         </ul>
 </section>
-
-
 <!-- Key focus areas end -->
+
+
 
 <!-- major projects and partners start  -->
 
 <section class="intro">
         <div class="container">
                 <h1>Major Projects
-                and Partners &darr;</h1>
-                <!-- <p>Timeline v2 <a href="https://codepen.io/tutsplus/pen/zYQqPYG" target="_blank">here</a></p> -->
+                        and Partners &darr;</h1>
         </div>
 </section>
 
 <div class="projects">
-<main>
-  <!--Card div begin-->
-  <div class="quote-card">
-    <!--Card header begin-->
-    <div class="card-navigation">
-      <div class="layer"></div>
-      <p class="quote-sign">"</p>
-      <!-- <div class="quote-arrows arrow-left"></div>
-      <div class="quote-arrows arrow-right"></div> -->
-    </div>
-<!--Card header end-->
-    <!--Card body begin-->
-    <div class="card-body">
-        <ul>
-                <li>
-      <p class="quote-text">End Line Evaluation of Support my School Campaign on Education
-and Waste Management, in Uttar Pradesh, Karnataka, Tamil Nadu
-and Telangana by Plan India and Coca Cola Foundation (2018).</p>
-</li>
-<br>
-<li>
-      <p class="quote-text">End line Evaluation of Child Labour Project in Andhra Pradesh and
-      Odisha</p>
-      </li>
-      </ul>
-      
-      <!--Card body end-->
-    </div>
-    <!--Card div end-->
-  </div>
-</main>
+        <main>
+                <!--Card div begin-->
+                <div class="quote-card-childrights">
+                        <!--major project area's image card start-->
+                        <div class="card-navigation-childrights">
+
+                                <div class="layer">
+                                </div>
+                                <p class="quote-sign">"</p>
+                        </div>
+                        <!--major project area's image card end-->
+
+                        <!--Card body begin-->
+                        <div class="card-body">
+
+                                <ul>
+                                        <li>
+                                                <p class="quote-text">End Line Evaluation of Support my School Campaign on Education
+                                                        and Waste Management, in Uttar Pradesh, Karnataka, Tamil Nadu
+                                                        and Telangana by Plan India and Coca Cola Foundation (2018).</p>
+                                        </li>
+                                        <br>
+                                        <li>
+                                                <p class="quote-text">End line Evaluation of Child Labour Project in Andhra Pradesh and
+                                                        Odisha</p>
+                                        </li>
+                                </ul>
+
+                                <!--Card body end-->
+                        </div>
+                        <!--Card div end-->
+                </div>
+        </main>
 </div
 
-<!-- major projects and partners end -->
+        <!-- major projects and partners end -->
 
 
 <script src="js/childrights.js"></script>

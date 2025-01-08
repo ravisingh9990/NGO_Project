@@ -10,78 +10,6 @@
   padding: 0;
 }
 
-/* body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  background: var(--clr-white);
-  font-family: "Moderustic", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-} */
-
-/* ul {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-  display: flex;
-  align-items: center;
-}
-
-ul li {
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  overflow: hidden;
-  border: 1px solid var(--clr-white);
-  position: relative;
-  transform: translateY(0);
-  transition: 0.2s ease-in-out;
-}
-
-ul li:hover {
-  transform: translateY(-0.625rem);
-  cursor: pointer;
-}
-
-ul li::before {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 100%;
-  background: hsl(0deg 0% 6.67% / 20%);
-}
-
-ul li span {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  font-size: 0.6rem;
-  color: var(--clr-white);
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-ul li + li {
-  margin-left: -0.625rem;
-}
-
-ul img {
-  width: 100%;
-  height: 100%;
-  object-fit: fill;
-}
-
-a {
-  display: inline-block;
-  text-decoration: none;
-} */
 
 main {
   padding-block: min(20vh, 2rem);
@@ -260,16 +188,14 @@ main:after{
   display: block;
 }
 
-/* footer, main:after {
-  height: 60px; 
-} */
+
 
 /**Card styles: general**/
 
-.quote-card {
+.quote-card-childrights {
   width: 100%;
   width: 1200px;
-  height: 50vh;
+  height: 40vh;
   background-color: #023660;
   margin: auto;
   position: absolute;
@@ -281,79 +207,193 @@ main:after{
   border-radius: 20px;
 }
 
+.quote-card-socialdevelopment2 {
+  width: 100%;
+  width: 1200px;
+  height: 35vh;
+  background-color: #023660;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 25px 60px -10px #000;
+  border-radius: 20px;
+}
+.quote-card-socialdevelopment1 {
+  width: 100%;
+  width: 1200px;
+  height: 60vh;
+  background-color: #023660;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 25px 60px -10px #000;
+  border-radius: 20px;
+}
+
+.quote-card-public-health1 {
+  width: 100%;
+  width: 1200px;
+  height: 55vh;
+  background-color: #023660;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 25px 60px -10px #000;
+  border-radius: 20px;
+}
+.quote-card-public-health2 {
+  width: 100%;
+  width: 1200px;
+  height: 70vh;
+  background-color: #023660;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 25px 60px -10px #000;
+  border-radius: 20px;
+}
+.quote-card-public-health3 {
+  width: 100%;
+  width: 1200px;
+  height: 20vh;
+  background-color: #023660;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 25px 60px -10px #000;
+  border-radius: 20px;
+}
+.quote-card-environment {
+  width: 100%;
+  width: 1200px;
+  height: 25vh;
+  background-color: #023660;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 25px 60px -10px #000;
+  border-radius: 20px;
+}
 
 /**Card navigation styles**/
 
-.card-navigation {
+.card-navigation-childrights {
   float: left;
   text-align: center;
   width: 25%;
   height: 100%;
-  background-image: url(https://i.imgur.com/mfkTSXu.png);
+  background-image: url('https://images.pexels.com/photos/30073700/pexels-photo-30073700/free-photo-of-joyful-children-in-lonavala-s-scenic-outdoors.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-position: center;
-  /* border-radius: 20px; */
+  
+}
+.card-navigation-socialdevelopment1 {
+  float: left;
+  text-align: center;
+  width: 25%;
+  height: 100%;
+  background-image: url('https://images.pexels.com/photos/27808681/pexels-photo-27808681/free-photo-of-a-man-is-standing-in-the-water-with-a-stick.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  
+}
+.card-navigation-socialdevelopment2 {
+  float: left;
+  text-align: center;
+  width: 25%;
+  height: 100%;
+  background-image: url('https://images.pexels.com/photos/30088193/pexels-photo-30088193/free-photo-of-lush-green-terraced-fields-in-ooty-india.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  
+}
+.card-navigation-public-health1 {
+  float: left;
+  text-align: center;
+  width: 25%;
+  height: 100%;
+  background-image: url('https://images.pexels.com/photos/4031825/pexels-photo-4031825.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  
+}
+.card-navigation-public-health2 {
+  float: left;
+  text-align: center;
+  width: 25%;
+  height: 100%;
+  background-image: url('https://images.pexels.com/photos/27599728/pexels-photo-27599728/free-photo-of-the-hands.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  
+}
+.card-navigation-public-health3 {
+  float: left;
+  text-align: center;
+  width: 25%;
+  height: 100%;
+  background-image: url('https://images.pexels.com/photos/11586000/pexels-photo-11586000.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  
+}
+.card-navigation-environment {
+  float: left;
+  text-align: center;
+  width: 25%;
+  height: 100%;
+  background-image: url('https://images.pexels.com/photos/11586000/pexels-photo-11586000.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  
 }
 
 .layer {
-  background-color: rgba(39, 40, 51, 0.87);
+  background-color: rgba(39, 40, 51, 0.636);
   position: absolute;
   top: 0;
   left: 0;
   width: 25%;
   height: 100%;
-}
-
-.quote-sign {
-  font-family: 'Palanquin Dark', sans-serif;
-  font-size: 120px;
-  -webkit-transform: rotate(180deg);
-  -moz-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
-  margin-top: -75px;
-  color: rgba(255, 255, 255, 0.1);
-}
-
-.quote-arrows {
-  position: absolute;
-  bottom: 25px;
-  left: 50px;
-  content: "";
-  display: block;
-  height: 14px;
-  width: 14px;
-  cursor: pointer;
-  transition: 0.5s;
-}
-
-.quote-arrows.arrow-left,
-.quote-arrows.arrow-left:visited {
-  border-bottom: 2px solid #fff;
-  border-left: 2px solid #fff;
-  float: left;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-.quote-arrows.arrow-right,
-.quote-arrows.arrow-right:visited {
-  border-bottom: 2px solid #fff;
-  border-left: 2px solid #fff;
-  float: right;
-  -webkit-transform: rotate(-135deg);
-  -ms-transform: rotate(-135deg);
-  transform: rotate(-135deg);
-  margin-left: 40px;
-}
-
-.quote-arrows.arrow-left:hover,
-.quote-arrows.arrow-right:hover {
-  opacity: 0.5;
 }
 
 
@@ -369,57 +409,11 @@ main:after{
 
 .quote-text {
   font-size: 20px;
-  /* text-transform: uppercase; */
   margin-top: 0;
   margin-bottom: 0;
   line-height: 35px;
   font-weight: 800;
 }
-
-/* .font-change {
-  font-family: 'Palanquin Dark', sans-serif;
-} */
-
-.quote-author {
-  font-size: 10px;
-  text-transform: uppercase;
-  font-weight: 600;
-}
-
-
-/**Card social button styles**/
-
-/* .card-social {
-  width: 12%;
-  float: right;
-  padding-top: 20px;
-}
-
-.card-social button.heart-num {
-  background: rgba(0, 0, 0, 0.1);
-  border: none;
-  border-radius: 15px;
-  padding: 7px 13px;
-  color: #fff;
-  cursor: pointer;
-}
-
-.card-social button.heart-num:hover .like {
-  color: #F2495A;
-  transition: ease-in 0.5s;
-}
-
-.card-social button.heart-num:focus {
-  outline: 0;
-}
-
-.card-social button.heart-num:active .like {
-  color: #F2495A;
-  -webkit-animation-name: pulse;
-  -moz-animation-name: pulse;
-  -webkit-animation-duration: 0.5s;
-  -moz-animation-duration: 0.5s;
-} */
 
 /*Keyframes for pulse effect*/
 

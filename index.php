@@ -1,4 +1,8 @@
 <?php include"includes/header.php"; ?>
+<link rel="stylesheet" href="css/index_responsive.css">
+
+
+       
 
         <!-- Carousel Start -->
         <div class="containertwo">

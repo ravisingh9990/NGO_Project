@@ -1,6 +1,6 @@
 <?php include "includes/header.php"; ?>
 <link rel="stylesheet" href="css/childrights.css">
-<link rel="stylesheet" href="css/childrightsfocus.css">
+
 
 
 <style>
@@ -269,24 +269,13 @@
             (WASH)</h1>
 
 
-        <div class="container">
+            <div class="container">
             <div class="card">
                 <div class="card-inner">
                     <div class="box">
                         <div class="imgBox">
-                            <img src="https://images.unsplash.com/photo-1598601065215-751bf8798a2c?q=80&w=1883&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Awesome views">
+                            <img src="img/publichealth/1.jpeg" alt="social development">
                         </div>
-                        <!-- <div class="more">
-                                                <ul>
-                                                        <li><img src="https://plus.unsplash.com/premium_photo-1672115680958-54438df0ab82?q=80&w=1784&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></li>
-                                                        <li><img src="https://images.unsplash.com/photo-1600298882283-40b4dcb8b211?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></li>
-                                                        <li><img src="https://plus.unsplash.com/premium_photo-1667987781458-c45c1ad5dfe1?q=80&w=2051&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></li>
-                                                        <li><img src="https://images.unsplash.com/photo-1600298882698-312a4137fd33?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""><span>50+</span></li>
-                                                </ul>
-                                        </div> -->
-                        <!-- <div class="tag">
-                                                <a href="#">#Awesome views</a>
-                                        </div> -->
 
                     </div>
                 </div>
@@ -294,35 +283,22 @@
             <div class="card video">
                 <div class="card-inner">
                     <div class="box">
-                        <div class="videoBox poster">
-                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/5D8TBicNIb8?si=x658Sysm10QHsnof&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
 
-                        <!-- <div class="tag">
-                                                <a href="#">#Pet friendly</a>
-                                        </div> -->
+                    <div class="imgBox">
+                            <img src="img/publichealth/4.jpeg" alt="social development">
+                        </div>
 
                     </div>
                 </div>
             </div>
+            
             <div class="card">
-                <!-- <p><a href="event.html">More about Child Rights & Education</a> </p> -->
 
                 <div class="card-inner">
                     <div class="box">
                         <div class="imgBox">
-                            <img src="https://images.unsplash.com/photo-1501554728187-ce583db33af7?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Hiking">
+                            <img src="img/publichealth/3.jpeg" alt="social development event">
                         </div>
-
-                        <div class="more">
-                            <a href="#" class="arrow"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-                                </svg></a>
-
-                        </div>
-                        <!-- <div class="tag">
-                                                <a href="#">#Hiking</a>
-                                        </div> -->
 
                     </div>
                 </div>
@@ -375,13 +351,11 @@
 <div class="projects">
     <main>
         <!--Card div begin-->
-        <div class="quote-card">
+        <div class="quote-card-public-health1">
             <!--Card header begin-->
-            <div class="card-navigation">
+            <div class="card-navigation-public-health1">
                 <div class="layer"></div>
                 <p class="quote-sign">"</p>
-                <!-- <div class="quote-arrows arrow-left"></div>
-      <div class="quote-arrows arrow-right"></div> -->
             </div>
             <!--Card header end-->
             <!--Card body begin-->
@@ -426,16 +400,15 @@ Partners start  -->
     <div class="container">
         <h1>Donors and
             Partners &darr;</h1>
-        <!-- <p>Timeline v2 <a href="https://codepen.io/tutsplus/pen/zYQqPYG" target="_blank">here</a></p> -->
     </div>
 </section>
 
 <div class="projects">
     <main>
         <!--Card div begin-->
-        <div class="quote-card">
+        <div class="quote-card-public-health2">
             <!--Card header begin-->
-            <div class="card-navigation">
+            <div class="card-navigation-public-health2">
                 <div class="layer"></div>
                 <p class="quote-sign">"</p>
                 <!-- <div class="quote-arrows arrow-left"></div>
@@ -451,42 +424,42 @@ Partners start  -->
                             in Andhra Pradesh, Pepsico Foundation and Smile Foundation
                             (2018)</p>
                     </li>
-                    <br>
+                    
                     <li>
                         <p class="quote-text">Integrated Peer Educator Training Programme (curriculum and
                             training material) under Young Health Programme. Plan India.</p>
                     </li>
-                    <br>
+                    
 
                     <li>
 
                         <p class="quote-text"> <span style="font-style: bold">Young Health Program Peer Educator’s Training on Non-
                                 Communicable Diseases, Plan India</p>
                     </li>
-                    <br>
+                    
                     <li>
 
                         <p class="quote-text"> <span style="font-style: bold">Young Health Programme Peer Educator’s Training on Non-
                                 Communicable Diseases, Plan India</p>
                     </li>
-                    <br>
+                    
                     <li>
 
                         <p class="quote-text"> <span style="font-style: bold">Bi-annual Workshop with multi-stakeholders to promote health
                                 sector reforms, Plan India</p>
                     </li>
-                    <br>
+                    
                     <li>
 
                         <p class="quote-text"> <span style="font-style: bold">Capacity Building Workshop of Young Health Program Staff,
                                 Plan India</p>
                     </li>
-                    <br>
+                    
                     <li>
 
                         <p class="quote-text"> <span style="font-style: bold">Capacity Building Workshop of Young Health Program Staff</p>
                     </li>
-                    <br>
+                    
                     <li>
 
                         <p class="quote-text"> <span style="font-style: bold">Advocacy Mapping on Non-Communicable Diseases</p>
@@ -508,16 +481,15 @@ Partners start  -->
 <section class="intro">
     <div class="container">
         <h1>Donors &darr;</h1>
-        <!-- <p>Timeline v2 <a href="https://codepen.io/tutsplus/pen/zYQqPYG" target="_blank">here</a></p> -->
     </div>
 </section>
 
 <div class="projects">
     <main>
         <!--Card div begin-->
-        <div class="quote-card">
+        <div class="quote-card-public-health3">
             <!--Card header begin-->
-            <div class="card-navigation">
+            <div class="card-navigation-public-health3">
                 <div class="layer"></div>
                 <p class="quote-sign">"</p>
                 <!-- <div class="quote-arrows arrow-left"></div>

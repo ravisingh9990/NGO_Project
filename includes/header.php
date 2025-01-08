@@ -101,7 +101,7 @@
                     </div>
                     <a href="partners.php" class="nav-item nav-link">Partners</a>
                     <a href="resources.php" class="nav-item nav-link">Resources</a>
-                    <a href="event.php" class="nav-item nav-link">Events Gallery</a>
+                    <a href="eventGallery.php" class="nav-item nav-link">Events Gallery</a>
 
                     <a href="contact.php" class="nav-item nav-link">Contact</a>
                 </div>

@@ -1,0 +1,183 @@
+/* General Responsive Styles */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    /* Carousel Responsive */
+    .containertwo {
+        height: 300px;
+    }
+    
+    .containertwo video,
+    .containertwo img {
+        height: 300px;
+        object-fit: cover;
+    }
+    
+    .arrow {
+        font-size: 20px;
+        padding: 10px;
+    }
+    
+    /* About Section */
+    .about .about-img {
+        margin-bottom: 30px;
+        height: 300px;
+    }
+    
+    .about-tab .nav-pills .nav-link {
+        padding: 10px;
+        font-size: 14px;
+    }
+    
+    /* Service Items */
+    .service-item {
+        margin-bottom: 30px;
+    }
+    
+    .service-icon {
+        margin-bottom: 15px;
+    }
+    
+    .service-text h3 {
+        font-size: 18px;
+    }
+    
+    /* Facts Section */
+    .facts-item {
+        margin-bottom: 30px;
+    }
+    
+    .facts-text h3 {
+        font-size: 36px;
+    }
+    
+    /* Team Section */
+    .team-item {
+        margin-bottom: 30px;
+    }
+    
+    .team-text {
+        padding: 15px;
+    }
+    
+    .team-text h2 {
+        font-size: 18px;
+    }
+    
+    /* Volunteer Section */
+    .volunteer-form,
+    .volunteer-content {
+        padding: 30px;
+    }
+    
+    /* Testimonial Section */
+    .testimonial-item {
+        padding: 15px;
+    }
+    
+    .testimonial-profile img {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .testimonial-text {
+        padding: 15px;
+    }
+    
+    /* Contact Form */
+    .contact-form {
+        padding: 30px;
+    }
+    
+    /* Donate Section */
+    .donate-form {
+        padding: 20px;
+    }
+    
+    .btn-group-toggle {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .btn-group-toggle .btn {
+        width: 100%;
+        margin: 0;
+    }
+    
+    /* Navigation Improvements */
+    .nav-pills {
+        flex-wrap: wrap;
+    }
+    
+    .nav-pills .nav-item {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    
+    /* Form Controls */
+    .control-group {
+        margin-bottom: 15px;
+    }
+    
+    .form-control {
+        padding: 12px;
+    }
+}
+
+/* Small Mobile Devices */
+@media (max-width: 576px) {
+    .section-header h2 {
+        font-size: 24px;
+    }
+    
+    .btn-custom {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    
+    .testimonial-name h3 {
+        font-size: 16px;
+    }
+    
+    .facts-text p {
+        font-size: 14px;
+    }
+    
+    .about-tab .tab-content {
+        padding: 15px;
+    }
+    
+    /* Adjust carousel dots for better touch targets */
+    .dots {
+        bottom: 10px;
+    }
+    
+    .dot {
+        padding: 8px;
+    }
+}
+
+/* Image Optimization */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Improved Table Responsiveness */
+@media (max-width: 768px) {
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}
+
+/* Fix for Partner Logos */
+.causespart-img img {
+    max-width: 150px;
+    height: auto;
+    margin: 0 auto;
+}
