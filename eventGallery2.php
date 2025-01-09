@@ -207,7 +207,7 @@
 </style>
 
 <!-- Page Header Start -->
-<div class="page-header-about">
+<div class="page-header-eventsGallery">
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -1041,7 +1041,7 @@
 
 <!-- Presentation school section end -->
 
-
+<button class="btn btn-custom"><a href="eventGallery.php">Previous Page</a></button>
 
 <script>
     const Carousel = (() => {

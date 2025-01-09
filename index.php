@@ -1,7 +1,30 @@
 <?php include"includes/header.php"; ?>
+
+
+
 <link rel="stylesheet" href="css/index_responsive.css">
 
+<style>
+    .collapsible-content {
+      overflow: hidden;
+      max-height: 3em; /* Collapsed height */
+      line-height: 1.5em;
+      text-overflow: ellipsis;
+      transition: max-height 0.3s ease;
+    }
 
+    .toggle-button {
+      color: #007bff;
+      cursor: pointer;
+      text-decoration: underline;
+      margin-top: 10px;
+      display: inline-block;
+    }
+
+    .toggle-button:hover {
+      text-decoration: none;
+    }
+  </style>
        
 
         <!-- Carousel Start -->
@@ -61,7 +84,7 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
-                        <div class="about-img" data-parallax="scroll" data-image-src="img/6.jpeg"></div>
+                        <div class="about-img" data-parallax="scroll" data-image-src="img/21.jpg"></div>
                     </div>
                     <div class="col-lg-6">
                         <div class="section-header">
@@ -481,7 +504,7 @@
         <!-- Testimonial Start -->
         <div class="testimonial">
             <div class="container">
-                <div class="section-header text-center">
+                <div class="section-header text-center ">
                     <p>Testimonial</p>
                     <h2>What people are talking about our charity activities</h2>
                 </div>
@@ -489,110 +512,117 @@
                     <div class="testimonial-item">
                         <div class="testimonial-profile">
                             <img src="https://media.licdn.com/dms/image/v2/C4E03AQGeIbXQenIaZg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517721651591?e=1741219200&v=beta&t=6i60QOz7qlTyLt-uLGXXmtJKX0R8Gnr6lXI1xNEcFJo" alt="Image">
-                            <div class="testimonial-name">
+                            <div class="testimonial-name collapsible-section">
                                 <h3>Alok Kumar</h3>
                                 <p>Head - Corporate Social Responsibility (CSR)
                                     Adventz Group (Dr. K.K Birla Group of Companies)</p>
                             </div>
                         </div>
                         <div class="testimonial-text">
-                            <p>
+                            <p class="collapsible-content">
                                 I have found Global Pathfields a result oriented, technically sound institution dedicated to proving development support and execution. The institution has already made a significant contribution to many mid-size and large size donor funded as well as state driven programs in the county.
 I am sure, that under the strong leadership of Mr. Joshi, and with a robust and transparent organizational system in place, Global Pathfields is all set to provide leadership in developing innovative partnerships, and solutions to address complex social problems.
                             </p>
+                            <span class="toggle-button">Read More</span>
                         </div>
                     </div>
                     <div class="testimonial-item">
                         <div class="testimonial-profile">
                             <img src="http://sofiaconference.bg/wp-content/uploads/2014/10/200x200_brander.jpg" alt="Image">
-                            <div class="testimonial-name">
+                            <div class="testimonial-name collapsible-section">
                                 <h3>Dr. Andreas Brandner</h3>
                                 <p>Managing Director KMA Knowledge Management Associates GmbH Gersthofer Straße 162, 1180 Vienna</p>
                             </div>
                         </div>
                         <div class="testimonial-text">
-                            <p>
+                            <p class="collapsible-content">
                                 KMA Knowledge Management Associates GmbH, based in Vienna, Austria, collaborates globally to advance Knowledge Management (KM) for sustainable development. In partnership with Global Pathfields, we aim to create a sustainable KM community in India, developing innovative concepts and tools for the Government, Private Sector, and International Organisations.
 
                                 Global Pathfields has proven to be a result-oriented and technically adept institution, dedicated to empowering disadvantaged communities and influencing policy at national and international levels. Under Gaurav's strong leadership and transparent systems, the organization continues to excel in addressing complex social challenges.
                                 
-                                I congratulate Gaurav and his team for their remarkable achievements and look forward to future collaborations in India.                                
-                        </div>
+                                I congratulate Gaurav and his team for their remarkable achievements and look forward to future collaborations in India. 
+                            </p>                                
+                                <span class="toggle-button">Read More</span>
+                            </div>
                     </div>
                     <div class="testimonial-item">
                         <div class="testimonial-profile">
                             <img src="https://media.licdn.com/dms/image/v2/C5103AQF6UHsXV_R00A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516466328298?e=1741219200&v=beta&t=gexs24fvFKiWDYFXlwQzWqB6dsLNOkRWw4P3qk7mIdQ" alt="Image">
-                            <div class="testimonial-name">
+                            <div class="testimonial-name collapsible-section">
                                 <h3>Nirmala Mishra</h3>
                                 <p>Assistant Vice President
                                     Smile Foundation</p>
                             </div>
                         </div>
                         <div class="testimonial-text">
-                            <p>
+                            <p class="collapsible-content">
                                 Global Pathfields is one of the prime partner with Smile Foundation to develop IEC/BCC material on Nutrition, MCH, Anemia, WASH etc. They are providing technical support to develop posters, flip book, facilitator guide for the projects supported by the reputed companies.
                                 I am impressed with the creativity and innovative approach used to design the communication materials. The IEC materials drafted by the Global Pathfields were highly appreciated by the donor agency. The Organisation is well oriented, highly professional, organized and is always open to constructive feedback, making our business relationship both effortless and pleasant.
                                 Gaurav Joshi founder of the Organisation is very dedicated and sincere. Gaurav is a self-motivated, persistent hard worker, diligent, desire to experiment and always finding new ways to achieving the results is unparalleled.
                                 I congratulate Gaurav and his team for the success and achievements they have made in short period. All my best wishes to Global Pathfields for their future endeavors.
                             </p>
+                            <span class="toggle-button">Read More</span>
                         </div>
                     </div>
                     <div class="testimonial-item">
                         <div class="testimonial-profile">
                             <img src="https://media.licdn.com/dms/image/v2/C4D03AQHZdhlR70BDGA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1609915952864?e=1741219200&v=beta&t=JM0y2nnUPb-ebZAzjneV8JcryKgbtmRnXb5L1DDlueA" alt="Image">
-                            <div class="testimonial-name">
+                            <div class="testimonial-name collapsible-section">
                                 <h3>Dr. Gaurav Arya</h3>
                                 <p>Regional Director (Patient Access)
                                     Abott Health Care India Limited</p>
                             </div>
                         </div>
                         <div class="testimonial-text">
-                            <p>
+                            <p class="collapsible-content">
                                 Current pandemic COVID 19 presents huge opportunity to Global Pathfields in the areas of Skill Development and Inclusive Public Health Services for Indians.
 Delivery of Skill development through digital platform for people who are still not part of digital infrastructure is huge challenge for our country since classroom trainings and gathering of people are going to be difficult in coming months and there and there are chances that post COVID there would be more acceptance for online vocation education among employers both ends of supply and demand side. Global Pathfields through international collaborators can bring the best from international partners and put it to the service of Nation.
 Similarly delivery of public health services through digital platform is a great opportunity for Global Pathfields to develop new and innovative models which can bring these services to the doorsteps of people of the country who are still not able to access basic health services and there huge gap exists between the quality health care and poor population of our country.
 The organisation has done exemplary work in the last few years to make all of us proud and I hope it will venture into hard core solid implementation of projects which will bring many more benefits to its stakeholders and community.
                             </p>
+                            <span class="toggle-button">Read More</span>
                         </div>
                     </div>
                     <div class="testimonial-item">
                         <div class="testimonial-profile">
                             <img src="https://media.licdn.com/dms/image/v2/D4D03AQGmUpL5YNCcfQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1670780271592?e=1741219200&v=beta&t=uVg0mabEi_FsIvI7AbG1-PaxpO_nGYMxOH7QEkrQwD4" alt="Image">
-                            <div class="testimonial-name">
+                            <div class="testimonial-name collapsible-section">
                                 <h3>Chandan Verma</h3>
                                 <p>National Partnership Officer-Govt. & CSR Partnerships
                                     Humana People to People India</p>
                             </div>
                         </div>
                         <div class="testimonial-text">
-                            <p>
+                            <p class="collapsible-content">
                                 It is overwhelming to know that Global Pathfields is playing a pivotal role in uplifting the overall quality of life for the most vulnerable population of India through various in-house inclusive development programs. I was glad to learn that each of the programs has been crafted with utmost precision, keeping in mid every element that is a must for the population on focus i.e. children, women, youth and the community.
 Seamless planning and execution of various programs like SEED, WASH, Waste Management, Support My School Campaign, etc are milestones achieved in no time, that has not only garnered trust and admiration from various partners, however has also increased the geographical presence of the organisation, nationwide.
 I must mention that, the dedicated team of Global Pathfields team is on a long journey of offering their services to the not so fortunate one’s of our society, hence what you have accomplished till date is remarkable and exemplary.
 Keep up the good work and scale new heights team!
 All the best for your future endeavours
                             </p>
+                            <span class="toggle-button">Read More</span>
                         </div>
                     </div>
                     <div class="testimonial-item">
                         <div class="testimonial-profile">
                             <img src="https://media.licdn.com/dms/image/v2/D5603AQENZrzo5MBhZA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1661353616994?e=1741219200&v=beta&t=obaaurDDhDtpSaX4Yx60JqXyDKzw91DtgWLwlZlCYXE" alt="Image">
-                            <div class="testimonial-name">
+                            <div class="testimonial-name collapsible-section">
                                 <h3>Deep Chandra Papnoi</h3>
                                 <p>Programme Manager United Nations Global Compact Network India</p>
                             </div>
                         </div>
                         <div class="testimonial-text">
-                            <p>
+                            <p class="collapsible-content">
                                 Global Pathfields is a not for profit Organisation and at the forefront of addressing the development challenges related to Sustainable Development Goals (SDGs) in India. With an organized, dynamic, passionate team that is dedicated to making a niche for themselves and contributing substantially in the development sector. The organization has been a joy to work with and is having a positive impact on the communities. We have been impressed with their unwavering commitment to bring positive changes in the lives of the disadvantaged communities, quality of their work, speed, dedication and professionalism in their programs, make the organisation a distinct entity. The organisation through its program implementation bringing the changes in the lives of disadvantaged communities, and developing development models, which could be scaled up further by the donor and the Government. Global Pathfields emphasizes positive action for community involvement and desired outcomes. Furthermore, the organisation in a short span of time, develop a strong partnership with various national and international organisations and demonstrated presence on various
                                 policy forums as well. Global Pathfields has been a proactive supporter of United National Global Compact Network in India and contributed substantially on the policy discussions and global forums. We highly appreciate the efforts of the Global Pathfields and recommend them for the partnerships with the private sector, UN and Government.
                             </p>
+                            <span class="toggle-button">Read More</span>
                         </div>
                     </div>
                     <div class="testimonial-item">
                         <div class="testimonial-profile">
                             <img src="https://media.licdn.com/dms/image/v2/D5603AQGTh54ufPxw3A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1718215764887?e=1741219200&v=beta&t=wisEncCJYuYhOOT1Oys4la11F5hLUmI28PCBHRQGR_8" alt="Image">
-                            <div class="testimonial-name">
+                            <div class="testimonial-name collapsible-section">
                                 <h3>Arvind Unni</h3>
                                 <p>Urban Poverty Reduction Thematic Lead
                                     Indo Global Social Service Society (IGSSS)
@@ -600,11 +630,12 @@ All the best for your future endeavours
                             </div>
                         </div>
                         <div class="testimonial-text">
-                            <p>
+                            <p class="collapsible-content">
                                 Our work with Global Pathfields was a positive experience. They helped us in the analysis of data for our Baseline for Enabling Inclusive Cities Project commissioned by European Union. The analysis includes more than 5000 surveys, involving a complex set of variables and parameters. The document has been widely appreciated in the civil society sector and especially amongst the organizations working with Homeless.
 The best part of working with Global Pathfields apart from their analytical skills was their adaptive capacities to engage with nuanced issues like urban homelessness and also the ability to work with diverse stakeholders that were involved in the making of the report. Also, really value their commitment to the task and quick turnaround time in adverse time constraints that we had as a team.
 I wish them success in the year ahead and also look forward to working with them.
                             </p>
+                            <span class="toggle-button">Read More</span>
                         </div>
                     </div>
                 </div>
@@ -835,5 +866,30 @@ I wish them success in the year ahead and also look forward to working with them
             </div>
         </div>
         <!-- our partners gallery End -->
+
+        <!-- collapsible menu js for managment section read more button   -->
+<script>
+    // Select all toggle buttons
+    document.querySelectorAll('.toggle-button').forEach(button => {
+      button.addEventListener('click', function () {
+        const content = this.previousElementSibling; // Find the corresponding paragraph
+        if (content.style.maxHeight === 'none') {
+          // Collapse the content
+          content.style.maxHeight = '3em';
+          this.textContent = 'Read More';
+        } else {
+          // Expand the content
+          content.style.maxHeight = 'none';
+          this.textContent = 'Read Less';
+        }
+      });
+    });
+
+    // Initialize styles for all collapsible paragraphs
+    document.querySelectorAll('.collapsible-content').forEach(content => {
+      content.style.maxHeight = '3em'; // Set initial collapsed height
+    });
+  </script>
+  <!-- collapsible menu js for managment section read more button   -->
 
         <?php include"includes/footer.php"; ?>

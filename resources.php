@@ -179,7 +179,7 @@ nav ul li a{
   }
 </style>
 <!-- Page Header Start -->
-<div class="page-header-about">
+<div class="page-header-resources">
   <div class="container">
     <div class="row">
       <div class="col-12">

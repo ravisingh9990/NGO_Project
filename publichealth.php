@@ -247,7 +247,7 @@
 </style>
 
 <!-- Page Header Start -->
-<div class="page-header-about">
+<div class="page-header-publicHealth">
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -274,7 +274,7 @@
                 <div class="card-inner">
                     <div class="box">
                         <div class="imgBox">
-                            <img src="img/publichealth/1.jpeg" alt="social development">
+                            <img src="img/publichealth/imageCard/7.png" alt="social development">
                         </div>
 
                     </div>
@@ -285,7 +285,7 @@
                     <div class="box">
 
                     <div class="imgBox">
-                            <img src="img/publichealth/4.jpeg" alt="social development">
+                            <img src="img/publichealth/imageCard/8.png" alt="social development">
                         </div>
 
                     </div>
@@ -297,7 +297,7 @@
                 <div class="card-inner">
                     <div class="box">
                         <div class="imgBox">
-                            <img src="img/publichealth/3.jpeg" alt="social development event">
+                            <img src="img/publichealth/imageCard/9.png" alt="social development event">
                         </div>
 
                     </div>

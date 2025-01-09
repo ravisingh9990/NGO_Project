@@ -2,6 +2,7 @@
 <link rel="stylesheet" href="css/childrights.css">
 
 
+
 <style>
         *,
         *::before,
@@ -9,6 +10,18 @@
                 margin: 0;
                 padding: 0;
                 box-sizing: border-box;
+        }
+
+        .intro {
+                /* background: #023660; */
+                padding: 100px 0;
+        }
+
+        .container {
+                width: 90%;
+                max-width: 1200px;
+                margin: 0 auto;
+                text-align: center;
         }
 
         a {
@@ -27,17 +40,7 @@
         /* INTRO SECTION
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-        .intro {
-                /* background: #023660; */
-                padding: 100px 0;
-        }
-
-        .container {
-                width: 90%;
-                max-width: 1200px;
-                margin: 0 auto;
-                text-align: center;
-        }
+        
 
         /* h1 {
   font-size: 2.5rem;
@@ -112,13 +115,7 @@
                 border-color: transparent transparent transparent #023660;
         }
 
-        time {
-                display: block;
-                font-size: 1.2rem;
-                font-weight: bold;
-                margin-bottom: 8px;
-        }
-
+     
 
         /* EFFECTS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -246,7 +243,7 @@
 </style>
 
 <!-- Page Header Start -->
-<div class="page-header-about">
+<div class="page-header-childRights">
         <div class="container">
                 <div class="row">
                         <div class="col-12">
@@ -268,16 +265,7 @@
                                 <div class="card-inner">
                                         <div class="box">
                                                 <div class="imgBox">
-                                                        <img src="img/childrights/3.jpeg" alt="Awesome views">
-                                                </div>
-                                        </div>
-                                </div>
-                        </div>
-                        <div class="card video">
-                                <div class="card-inner">
-                                        <div class="box">
-                                                <div class="imgBox">
-                                                        <img src="img/childrights/2.jpeg" alt="childrights">
+                                                        <img src="img/childrights/imagecard/3.png" alt="Awesome views">
                                                 </div>
                                         </div>
                                 </div>
@@ -286,7 +274,16 @@
                                 <div class="card-inner">
                                         <div class="box">
                                                 <div class="imgBox">
-                                                        <img src="img/childrights/1.jpeg" alt="childrights">
+                                                        <img src="img/childrights/imagecard/2.png" alt="childrights">
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="card">
+                                <div class="card-inner">
+                                        <div class="box">
+                                                <div class="imgBox">
+                                                        <img src="img/childrights/imagecard/1.png" alt="childrights">
                                                 </div>
                                                 <div class="more">
                                                 </div>

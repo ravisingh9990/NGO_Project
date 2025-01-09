@@ -3,7 +3,7 @@
         
         
          <!-- Page Header Start -->
-    <div class="page-header-about">
+    <div class="page-header-contact">
       <div class="container">
         <div class="row">
           <div class="col-12">

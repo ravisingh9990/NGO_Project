@@ -1,3 +1,7 @@
+<?php
+// Get the current page's filename
+$currentPage = basename($_SERVER['PHP_SELF']);
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -33,6 +37,7 @@
     <!-- <link href="css/style2.scss" rel="stylesheet"> -->
     <link href="css/style2.css" rel="stylesheet">
     <link href="css/style3.css" rel="stylesheet">
+    
 </head>
 
 <body>
@@ -78,20 +83,20 @@
 
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav ml-auto">
-                    <a href="index.php" class="nav-item nav-link active">Home</a>
-                    <a href="about.php" class="nav-item nav-link">About</a>
+                    <a href="index.php" class="nav-item nav-link <?= $currentPage === 'index.php' ? 'active' : '' ?>">Home</a>
+                    <a href="about.php" class="nav-item nav-link <?= $currentPage === 'about.php' ? 'active' : '' ?>">About</a>
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Focus Areas</a>
                         <div class="dropdown-menu">
-                            <a href="childrights.php" class="dropdown-item">
+                            <a href="childrights.php" class="dropdown-item <?= $currentPage === 'childrights.php' ? 'active' : '' ?>">
                                 Childs Rights & Education</a>
-                            <a href="socialdevelopment.php" class="dropdown-item">
+                            <a href="socialdevelopment.php" class="dropdown-item <?= $currentPage === 'socialdevelopment.php' ? 'active' : '' ?>">
                                 Skill & Social Development</a>
-                            <a href="publichealth.php" class="dropdown-item">
+                            <a href="publichealth.php" class="dropdown-item <?= $currentPage === 'publichealth.php' ? 'active' : '' ?></a>">
                                 Public Health & Nutrition</a>
-                            <a href="environment.php" class="dropdown-item">
+                            <a href="environment.php" class="dropdown-item <?= $currentPage === 'environment.php' ? 'active' : '' ?>">
                                 Environment & Sustainability</a>
-                            <a href="monitoring.php" class="dropdown-item">
+                            <a href="monitoring.php" class="dropdown-item <?= $currentPage === 'monitoring.php' ? 'active' : '' ?>">
                                 Monitoring,
                                 Evaluation
                                 and Impact
@@ -99,11 +104,11 @@
                             
                         </div>
                     </div>
-                    <a href="partners.php" class="nav-item nav-link">Partners</a>
-                    <a href="resources.php" class="nav-item nav-link">Resources</a>
-                    <a href="eventGallery.php" class="nav-item nav-link">Events Gallery</a>
+                    <a href="partners.php" class="nav-item nav-link <?= $currentPage === 'partners.php' ? 'active' : '' ?>">Partners</a>
+                    <a href="resources.php" class="nav-item nav-link <?= $currentPage === 'resources.php' ? 'active' : '' ?>">Resources</a>
+                    <a href="eventGallery.php" class="nav-item nav-link <?= $currentPage === 'eventGallery.php' ? 'active' : '' ?>">Events Gallery</a>
 
-                    <a href="contact.php" class="nav-item nav-link">Contact</a>
+                    <a href="contact.php" class="nav-item nav-link <?= $currentPage === 'contact.php' ? 'active' : '' ?>">Contact</a>
                 </div>
             </div>
         </div>

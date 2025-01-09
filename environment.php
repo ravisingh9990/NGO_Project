@@ -247,7 +247,7 @@
 </style>
 
 <!-- Page Header Start -->
-<div class="page-header-about">
+<div class="page-header-environment">
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -271,7 +271,7 @@
                 <div class="card-inner">
                     <div class="box">
                         <div class="imgBox">
-                            <img src="img/environment/1.jpeg" alt="social development">
+                            <img src="img/environment/imageCard/10.png" alt="social development">
                         </div>
 
                     </div>
@@ -282,7 +282,7 @@
                     <div class="box">
 
                     <div class="imgBox">
-                            <img src="img/environment/4.jpeg" alt="social development">
+                            <img src="img/environment/imageCard/11.png" alt="social development">
                         </div>
 
                     </div>
@@ -294,7 +294,7 @@
                 <div class="card-inner">
                     <div class="box">
                         <div class="imgBox">
-                            <img src="img/environment/3.jpeg" alt="social development event">
+                            <img src="img/environment/imageCard/12.png" alt="social development event">
                         </div>
 
                     </div>

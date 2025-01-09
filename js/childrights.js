@@ -1,6 +1,4 @@
-/* inspiration from
-https://dribbble.com/shots/22764492-Travel-website-Tours-and-glamping
-*/
+
 const poster = document.querySelector(".poster");
 poster.addEventListener("click", removePoster);
 
@@ -14,31 +12,6 @@ function removePoster() {
 
 
 
-$(document).ready(function() {
-  // Cards info
-  var cards = [
-    {
-      author: "Shelton Cooper",
-      quote: "DON'T YOU THINK THAT IF I WERE WRONG, I'D KNOW IT?",
-      imgUrl: "https://i.imgur.com/mfkTSXu.png",
-      color: "#18a0ff",
-      likes: 423,
-    },
-    {
-      author: "Albert Einstein",
-      quote: "The true sign of intelligence is not knowledge, but imagination.",
-      imgUrl: "https://i.imgur.com/3yAyk9o.jpg",
-      color: "#4C5099",
-      likes: 324,
-    },
-    {
-      author: "Steve Jobs",
-      quote: "The only way to do great work is to love what you do!",
-      imgUrl: "https://i.imgur.com/GIijkyE.jpg",
-      color: "#FFA358",
-      likes: 234,
-    },
-  ];
 
   var currIndex = 0;
   var fontMax = 49;
