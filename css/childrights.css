@@ -1,387 +1,221 @@
 @import url("https://fonts.googleapis.com/css2?family=Moderustic&family=SUSE:wght@600&display=swap");
 
+/* CSS Reset and Root Variables */
 :root {
   --clr-white: #fff;
   --clr-black: #111;
+  --clr-primary: #023660;
+  --clr-bg-gradient-start: #bbc2c5;
+  --clr-bg-gradient-mid: #b8bfc2;
+  --clr-bg-gradient-end: #e5ecef;
 }
 
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
+/* Base Styles */
+body {
+  min-height: 100vh;
+  font-family: 'Moderustic', sans-serif;
+}
 
+/* Main Layout */
 main {
-  padding-block: min(20vh, 2rem);
-  width: calc(min(70rem, 90%));
+  padding-block: min(10vh, 2rem);
+  width: min(90%, 70rem);
   margin-inline: auto;
   color: var(--clr-black);
   position: relative;
 }
 
-main .heading {
+/* Heading Styles */
+.heading {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   gap: 1em;
 }
 
-main .heading h1 {
+.heading h1 {
   letter-spacing: 0.025em;
-  font-size: clamp(2.5rem, 1.6351rem + 4.3243vw, 6.5rem);
-  line-height: 1;
+  font-size: clamp(2rem, 5vw, 6.5rem);
+  line-height: 1.1;
   font-family: "SUSE", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 600;
-  font-style: normal;
 }
 
-main .heading aside {
-  margin-top: 1.5em;
+.heading aside {
+  margin-top: 1em;
   max-width: 16.25rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5em;
 }
 
-main .heading aside p {
+.heading aside p {
   font-size: 0.9rem;
-  color: var(--clr-black);
   line-height: 1.5;
 }
 
-main .container {
+/* Projects Section */
+.projects {
+  background-color: rgba(241, 241, 241, 0.39);
+  background-image: linear-gradient(
+    to top right,
+    var(--clr-bg-gradient-start),
+    var(--clr-bg-gradient-mid),
+    var(--clr-bg-gradient-end) 60%
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+  padding: 2rem 1rem;
+}
+
+/* Container Grid */
+.container-img-section {
   margin-top: 2em;
   display: grid;
   gap: 1.5rem;
+  grid-template-columns: 1fr;
 }
 
-main .container {
-  grid-template-columns: repeat(3, 1fr);
-  margin-top: 3.5em;
-  gap: 2rem;
-}
-
- 
-
-main .card .card-inner .box .imgBox img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 1rem;
-} 
-
-
-
-/* major projects css start */
-
-
-/**General styles**/
-
-*,
-*::before,
-*::after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -o-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-.projects
-{
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  /* font-family: 'Open Sans', sans-serif; */
-}
-
-
-/**Body style: setting background gradient**/
-
-.projects {
-  /* background-color: #e5ecef; */
-  background-color: rgba(241, 241, 241, 0.39);
-  background-image: linear-gradient( to top right, #bbc2c5, #b8bfc2, #e5ecef 60%);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 50vh;
-  
-}
-
-/*Main style*/
-
-main{
-  min-height: 100%;
-  margin-bottom: -60px; 
-}
-
-main:after{
-  content: "";
-  display: block;
-}
-
-
-
-/**Card styles: general**/
-
-.quote-card-childrights {
-  width: 100%;
-  width: 1200px;
-  height: 40vh;
-  background-color: #023660;
-  margin: auto;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  box-shadow: 0 25px 60px -10px #000;
-  border-radius: 20px;
-}
-
-.quote-card-socialdevelopment2 {
-  width: 100%;
-  width: 1200px;
-  height: 35vh;
-  background-color: #023660;
-  margin: auto;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  box-shadow: 0 25px 60px -10px #000;
-  border-radius: 20px;
-}
-.quote-card-socialdevelopment1 {
-  width: 100%;
-  width: 1200px;
-  height: 60vh;
-  background-color: #023660;
-  margin: auto;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  box-shadow: 0 25px 60px -10px #000;
-  border-radius: 20px;
-}
-
-.quote-card-public-health1 {
-  width: 100%;
-  width: 1200px;
-  height: 55vh;
-  background-color: #023660;
-  margin: auto;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  box-shadow: 0 25px 60px -10px #000;
-  border-radius: 20px;
-}
-.quote-card-public-health2 {
-  width: 100%;
-  width: 1200px;
-  height: 70vh;
-  background-color: #023660;
-  margin: auto;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  box-shadow: 0 25px 60px -10px #000;
-  border-radius: 20px;
-}
-.quote-card-public-health3 {
-  width: 100%;
-  width: 1200px;
-  height: 20vh;
-  background-color: #023660;
-  margin: auto;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  box-shadow: 0 25px 60px -10px #000;
-  border-radius: 20px;
-}
+/* Quote Cards */
+.quote-card-childrights,
+.quote-card-socialdevelopment1,
+.quote-card-socialdevelopment2,
+.quote-card-public-health1,
+.quote-card-public-health2,
+.quote-card-public-health3,
 .quote-card-environment {
-  width: 100%;
-  width: 1200px;
-  height: 25vh;
-  background-color: #023660;
-  margin: auto;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  box-shadow: 0 25px 60px -10px #000;
+  width: 95%;
+  max-width: 1200px;
+  margin: 2rem auto;
+  background-color: var(--clr-primary);
   border-radius: 20px;
+  box-shadow: 0 25px 60px -10px rgba(0, 0, 0, 0.3);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
-/**Card navigation styles**/
-
-.card-navigation-childrights {
-  float: left;
-  text-align: center;
-  width: 25%;
-  height: 100%;
-  background-image: url('https://images.pexels.com/photos/30073700/pexels-photo-30073700/free-photo-of-joyful-children-in-lonavala-s-scenic-outdoors.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+/* Card Navigation Base */
+[class^="card-navigation-"] {
+  width: 100%;
+  height: 200px;
+  background-color: var(--clr-primary);
   background-size: cover;
   background-position: center;
-  
-}
-.card-navigation-socialdevelopment1 {
-  float: left;
-  text-align: center;
-  width: 25%;
-  height: 100%;
-  background-image: url('https://images.pexels.com/photos/27808681/pexels-photo-27808681/free-photo-of-a-man-is-standing-in-the-water-with-a-stick.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-position: center;
-  
-}
-.card-navigation-socialdevelopment2 {
-  float: left;
-  text-align: center;
-  width: 25%;
-  height: 100%;
-  background-image: url('https://images.pexels.com/photos/30088193/pexels-photo-30088193/free-photo-of-lush-green-terraced-fields-in-ooty-india.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-position: center;
-  
-}
-.card-navigation-public-health1 {
-  float: left;
-  text-align: center;
-  width: 25%;
-  height: 100%;
-  background-image: url('https://images.pexels.com/photos/4031825/pexels-photo-4031825.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-position: center;
-  
-}
-.card-navigation-public-health2 {
-  float: left;
-  text-align: center;
-  width: 25%;
-  height: 100%;
-  background-image: url('https://images.pexels.com/photos/27599728/pexels-photo-27599728/free-photo-of-the-hands.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-position: center;
-  
-}
-.card-navigation-public-health3 {
-  float: left;
-  text-align: center;
-  width: 25%;
-  height: 100%;
-  background-image: url('https://images.pexels.com/photos/11586000/pexels-photo-11586000.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-position: center;
-  
-}
-.card-navigation-environment {
-  float: left;
-  text-align: center;
-  width: 25%;
-  height: 100%;
-  background-image: url('https://images.pexels.com/photos/11586000/pexels-photo-11586000.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-position: center;
-  
+  background-repeat: no-repeat;
+  position: relative;
 }
 
+/* Individual Card Navigation Images */
+.card-navigation-childrights { background-image: url('../img/1.jpeg'); }
+.card-navigation-socialdevelopment1 { background-image: url('../img/3.jpeg'); }
+.card-navigation-socialdevelopment2 { background-image: url('../img/9.jpeg'); }
+.card-navigation-public-health1 { background-image: url('../img/5.jpeg'); }
+.card-navigation-public-health2 { background-image: url('../img/6.jpeg'); }
+.card-navigation-public-health3 { background-image: url('../img/7.jpeg'); }
+.card-navigation-environment { background-image: url('../img/8.jpeg'); }
+
+/* Overlay Layer */
 .layer {
   background-color: rgba(39, 40, 51, 0.636);
   position: absolute;
   top: 0;
   left: 0;
-  width: 25%;
+  width: 100%;
   height: 100%;
 }
 
-
-/**Card body styles**/
-
+/* Card Body */
 .card-body {
-  color: #feffff;
-  width: 63%;
-  float: left;
-  padding-left: 30px;
-  padding-top: 45px;
+  width: 100%;
+  padding: 1.5rem;
+  color: var(--clr-white);
 }
 
+/* Quote Text */
 .quote-text {
-  font-size: 20px;
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 35px;
-  font-weight: 800;
+  font-size: clamp(1rem, 2.5vw, 1.25rem);
+  margin: 0;
+  line-height: 1.6;
+  font-weight: 600;
 }
 
-/*Keyframes for pulse effect*/
+/* Pulse Animation */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.7); }
+  100% { transform: scale(1); }
+}
 
-@-webkit-keyframes pulse {
-  0% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
+/* Media Queries */
+@media (min-width: 768px) {
+  /* Heading Layout */
+  .heading {
+    flex-direction: row;
+    justify-content: space-between;
   }
-  50% {
-    -webkit-transform: scale(1.7);
-    transform: scale(1.7);
+
+  /* Container Grid */
+  .container-img-section {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
   }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
+
+  /* Quote Cards */
+  .quote-card-childrights,
+  .quote-card-socialdevelopment1,
+  .quote-card-socialdevelopment2,
+  .quote-card-public-health1,
+  .quote-card-public-health2,
+  .quote-card-public-health3,
+  .quote-card-environment {
+    flex-direction: row;
+  }
+
+  /* Card Navigation */
+  [class^="card-navigation-"] {
+    width: 25%;
+    height: 100%;
+    min-height: 100%;
+    flex: 0 0 25%;
+  }
+
+  /* Card Body */
+  .card-body {
+    width: 75%;
+    flex: 1;
+  }
+
+  /* Specific Card Heights */
+  .quote-card-childrights { height: 40vh; }
+  .quote-card-socialdevelopment2 { height: 35vh; }
+  .quote-card-socialdevelopment1 { height: 60vh; }
+  .quote-card-public-health1 { height: 55vh; }
+  .quote-card-public-health2 { height: 70vh; }
+  .quote-card-public-health3 { height: 20vh; }
+  .quote-card-environment { height: 25vh; }
+}
+
+@media (min-width: 1024px) {
+  .container-img-section {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
-@-moz-keyframes pulse {
-  0% {
-    -moz-transform: scale(1);
-    transform: scale(1);
+/* Mobile Specific Adjustments */
+@media (max-width: 767px) {
+  [class^="card-navigation-"] {
+    width: 100%;
+    height: 200px;
+    min-height: auto;
+    background-position: center;
   }
-  50% {
-    -moz-transform: scale(1.7);
-    transform: scale(1.7);
-  }
-  100% {
-    -moz-transform: scale(1);
-    transform: scale(1);
+  
+  .card-body {
+    width: 100%;
   }
 }
-
-
-
-/* major projects css end */

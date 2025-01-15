@@ -28,8 +28,8 @@
     /* INTRO SECTION
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-    .intro {
-        /* background: #023660; */
+    /* .intro {
+        
         padding: 100px 0;
     }
 
@@ -38,12 +38,9 @@
         max-width: 1200px;
         margin: 0 auto;
         text-align: center;
-    }
+    } */
 
-    /* h1 {
-  font-size: 2.5rem;
-} */
-
+   
 
     /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -268,7 +265,7 @@
             Assessment</h1>
 
 
-            <div class="container">
+            <div class="container-img-section">
             <div class="card">
                 <div class="card-inner">
                     <div class="box">

@@ -37,6 +37,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
     <!-- <link href="css/style2.scss" rel="stylesheet"> -->
     <link href="css/style2.css" rel="stylesheet">
     <link href="css/style3.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index_responsive.css">
     
 </head>
 

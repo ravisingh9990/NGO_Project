@@ -12,17 +12,17 @@
                 box-sizing: border-box;
         }
 
-        .intro {
-                /* background: #023660; */
+        /* .intro {
+                background: #023660;
                 padding: 100px 0;
-        }
+        } */
 
-        .container {
+        /* .     {
                 width: 90%;
                 max-width: 1200px;
                 margin: 0 auto;
                 text-align: center;
-        }
+        } */
 
         a {
                 color: inherit;
@@ -42,9 +42,6 @@
 
         
 
-        /* h1 {
-  font-size: 2.5rem;
-} */
 
 
         /* TIMELINE
@@ -260,7 +257,7 @@
         <div>
                 <h1 style="font-size: 40px;">Child Rights
                         & Education</h1>
-                <div class="container">
+                <div class="container-img-section">
                         <div class="card">
                                 <div class="card-inner">
                                         <div class="box">
@@ -393,7 +390,7 @@
 
                                 <div class="layer">
                                 </div>
-                                <p class="quote-sign">"</p>
+                                
                         </div>
                         <!--major project area's image card end-->
 
@@ -418,9 +415,9 @@
                         <!--Card div end-->
                 </div>
         </main>
-</div
+</div>
 
-        <!-- major projects and partners end -->
+<!-- major projects and partners end -->
 
 
 <script src="js/childrights.js"></script>

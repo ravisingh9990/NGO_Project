@@ -4,6 +4,7 @@
 
 <link rel="stylesheet" href="css/index_responsive.css">
 
+
 <style>
     .collapsible-content {
       overflow: hidden;
@@ -25,6 +26,133 @@
       text-decoration: none;
     }
   </style>
+
+  <!-- <style>
+    .footer {
+    position: relative;
+    margin-top: 45px;
+    padding-top: 90px;
+    /* background: #20212B;  by default theme color*/
+    background: #023660;
+    /* logo color  */
+}
+
+.footer .footer-contact,
+.footer .footer-link,
+.footer .footer-newsletter {
+    position: relative;
+    margin-bottom: 45px;
+    color: #ffffff;
+}
+
+.footer .footer-contact h2,
+.footer .footer-link h2,
+.footer .footer-newsletter h2 {
+    margin-bottom: 30px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #f9a230;
+}
+
+.footer .footer-link a {
+    display: block;
+    margin-bottom: 10px;
+    color: #ffffff;
+    transition: .3s;
+}
+
+.footer .footer-link a::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.footer .footer-link a:hover {
+    color: #f9a230;
+    letter-spacing: 1px;
+}
+
+.footer .footer-contact p i {
+    width: 25px;
+}
+
+.footer .footer-social {
+    position: relative;
+    margin-top: 20px;
+}
+
+.footer .footer-social a {
+    width: 40px;
+    height: 40px;
+    padding: 6px 0;
+}
+
+.footer .footer-social a {
+    margin-top: 5px;
+}
+
+.footer .footer-newsletter form {
+    position: relative;
+    width: 100%;
+}
+
+.footer .footer-newsletter input {
+    margin-bottom: 15px;
+    height: 60px;
+    border: none;
+    border-radius: 0;
+}
+
+.footer .footer-newsletter label {
+    margin-top: 5px;
+    color: #777777;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.footer .footer-newsletter .btn.btn-custom {
+    width: 100%;
+    padding: 15px 0;
+}
+
+.footer .copyright {
+    padding: 0 30px;
+}
+
+.footer .copyright .row {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-top: 1px solid rgba(256, 256, 256, .1);
+}
+
+.footer .copyright p {
+    margin: 0;
+    color: #999999;
+}
+
+.footer .copyright .col-md-6:last-child p {
+    text-align: right;
+}
+
+.footer .copyright p a {
+    color: #ffffff;
+}
+
+.footer .copyright p a:hover {
+    color: #f9a230;
+}
+
+@media (max-width: 767.98px) {
+    .footer .copyright p,
+    .footer .copyright .col-md-6:last-child p {
+        margin: 5px 0;
+        text-align: center;
+    }
+}
+
+  </style> -->
        
 
         <!-- Carousel Start -->
@@ -40,10 +168,7 @@
                 <source src="https://videos.pexels.com/video-files/5598970/5598970-uhd_2560_1440_24fps.mp4" type="video/mp4" />
               </video>
            
-            
-            <!-- <img src="https://images.unsplash.com/photo-1518640027989-a30d5d7e498e?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=f9575732a498c98486879d7000ab1d47" alt="">
-            <img src="https://images.unsplash.com/photo-1505843378597-b96befae716e?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=9e69634f39ec7c08514fef902cfc85ac" alt="">
-            <img src="https://images.unsplash.com/photo-1471138406156-7a89e687a062?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=7820fc816715b37942a793360b785c60" alt="">-->
+
             <div class="arrow arrow-right"><i class="fas fa-chevron-circle-right"></i>
             </div>
             <div class="dots">
@@ -327,7 +452,7 @@
         
         
         <!-- Event Start -->
-        <div class="event">
+        <!-- <div class="event">
             <div class="container">
                 <div class="section-header text-center">
                     <p>Recent Projects</p>
@@ -348,7 +473,7 @@
                                     <p>
                                         Through "The Kidney Kid" campaign, we raise awareness about kidney health, focusing on prevention and early detection. By empowering communities with knowledge, we aim to promote healthier lives for all.
                                     </p>
-                                    <!-- <a class="btn btn-custom" href="">Join Now</a> -->
+                                    
                                 </div>
                             </div>
                         </div>
@@ -367,29 +492,29 @@
                                     <p>
                                         We are committed to environmental conservation through tree plantation drives, waste management initiatives, and community awareness programs. By educating and empowering communities, we strive to create a sustainable future for generations to come. Together, we can make a difference.
                                     </p>
-                                    <!-- <a class="btn btn-custom" href="">Join Now</a> -->
+                                    
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Event End -->
 
 
         <!-- Team Start -->
         <div class="team">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="section-header text-center">
                     <p>Meet Our Team</p>
                     <h2>Awesome guys behind our charity activities</h2>
                 </div>
                 <div class="row">
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-lg-2 col-md-4 col-sm-2">
                         <div class="team-item">
                             <div class="team-img">
-                                <img src="https://media.licdn.com/dms/image/v2/C5103AQFTPGljWSpCRw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1531568730829?e=1741219200&v=beta&t=ARHKdTOHeFAlA-yGv6Ec_UQnXGsgWjraKCYO4qEoFNs" alt="Team Image">
+                                <img src="img/management/gauravJoshi.png" alt="Team Image">
                             </div>
                             <div class="team-text">
                                 <h2>Gaurav Joshi</h2>
@@ -403,14 +528,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-lg-2 col-md-4 col-sm-2">
                         <div class="team-item">
                             <div class="team-img">
-                                <img src="https://media.licdn.com/dms/image/v2/D5603AQEc1n4NUKIBew/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1730747551190?e=1741219200&v=beta&t=x7QmtOOEMCteOvF1QHnMYTbAB09GyiA3dX3yONOjdtA" alt="Team Image">
+                                <img src="img/management/aashishPurohit.png" alt="Team Image">
                             </div>
                             <div class="team-text">
-                                <h2>Dr Pranay Kumar</h2>
-                                <p>Sr. Consultant (GIS)</p>
+                                <h2>Aashish Purohit</h2>
+                                <p>Position</p>
                                 <div class="team-social">
                                     <a href=""><i class="fab fa-twitter"></i></a>
                                     <a href=""><i class="fab fa-facebook-f"></i></a>
@@ -420,14 +545,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-lg-2 col-md-4 col-sm-2">
                         <div class="team-item">
                             <div class="team-img">
-                                <img src="https://www.globalpathfields.org/img/pic2.jpg" alt="Team Image">
+                                <img src="img/management/jitenderKumar.png" alt="Team Image">
                             </div>
                             <div class="team-text">
-                                <h2>Deepti</h2>
-                                <p>Sr. Consultant</p>
+                                <h2>Jitender Kumar</h2>
+                                <p>Position</p>
                                 <div class="team-social">
                                     <a href=""><i class="fab fa-twitter"></i></a>
                                     <a href=""><i class="fab fa-facebook-f"></i></a>
@@ -437,14 +562,48 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6">
+                    <div class="col-lg-2 col-md-4 col-sm-2">
                         <div class="team-item">
                             <div class="team-img">
-                                <img src="https://www.globalpathfields.org/img/pic4.jpg" alt="Team Image">
+                                <img src="img/management/preetiSagore.png" alt="Team Image">
                             </div>
                             <div class="team-text">
-                                <h2>Ms. Rohini Rangachari Karnik</h2>
-                                <p>Program Officer</p>
+                                <h2>Preeti Sagore</h2>
+                                <p>Position</p>
+                                <div class="team-social">
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    <div class="col-lg-2 col-md-4 col-sm-2">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/management/ritaLehri.png" alt="Team Image">
+                            </div>
+                            <div class="team-text">
+                                <h2>Rita Lehri</h2>
+                                <p>Position</p>
+                                <div class="team-social">
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    <div class="col-lg-2 col-md-4 col-sm-2">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/management/yuktaburvey.png" alt="Team Image">
+                            </div>
+                            <div class="team-text">
+                                <h2>Yukta Burvey</h2>
+                                <p>Position</p>
                                 <div class="team-social">
                                     <a href=""><i class="fab fa-twitter"></i></a>
                                     <a href=""><i class="fab fa-facebook-f"></i></a>
@@ -454,8 +613,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
+        </div>
+        </div>
         </div>
         <!-- Team End -->
         

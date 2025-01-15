@@ -1,5 +1,70 @@
 <?php include"includes/header.php"; ?>
 
+<style>
+@import url(https://fonts.googleapis.com/css?family=Montserrat:500);
+
+/* :root {
+  font-size: 10px;
+} */
+
+
+
+.unique-container {
+  max-width: 200rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* .unique-heading {
+  font-size: 4rem;
+  text-align: center;
+  color: #1a1a1a;
+  margin-bottom: 2rem;
+} */
+
+.unique-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+  gap: 2rem;
+}
+
+.unique-gallery-item {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.2);
+}
+
+.unique-gallery-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.4s ease-out;
+}
+
+.unique-gallery-image:hover {
+  transform: scale(1.1);
+}
+
+.unique-figcaption {
+  padding: 1rem;
+  text-align: center;
+  background-color: #f9f9f9;
+  font-size: 1.7rem;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .unique-heading {
+    font-size: 3rem;
+  }
+
+  .unique-figcaption {
+    font-size: 1.2rem;
+  }
+}
+</style>
 
  <!-- Page Header Start -->
  <div class="page-header-partners">
@@ -141,81 +206,14 @@
       <img class="unique-gallery-image" src="img/partners/partner23.png" alt="Daksh Academy">
       <figcaption class="unique-figcaption">Daksh Academy</figcaption>
     </figure>
-    <!-- 24 -->
-    <!-- <figure class="unique-gallery-item">
-      <img class="unique-gallery-image" src="img/partners/partner06.jpg" alt="Coca Cola Foundation">
-      <figcaption class="unique-figcaption">Coca Cola Foundation</figcaption>
-    </figure> -->
+    
 
   </div>
 
 </div>
 
-<style>
-@import url(https://fonts.googleapis.com/css?family=Montserrat:500);
-
-/* :root {
-  font-size: 10px;
-} */
 
 
-
-.unique-container {
-  max-width: 200rem;
-  margin: 0 auto;
-  padding: 2rem;
-}
-
-/* .unique-heading {
-  font-size: 4rem;
-  text-align: center;
-  color: #1a1a1a;
-  margin-bottom: 2rem;
-} */
-
-.unique-gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
-  gap: 2rem;
-}
-
-.unique-gallery-item {
-  overflow: hidden;
-  border: 1px solid #ccc;
-  border-radius: 0.5rem;
-  box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.2);
-}
-
-.unique-gallery-image {
-  display: block;
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  transition: transform 0.4s ease-out;
-}
-
-.unique-gallery-image:hover {
-  transform: scale(1.1);
-}
-
-.unique-figcaption {
-  padding: 1rem;
-  text-align: center;
-  background-color: #f9f9f9;
-  font-size: 1.7rem;
-  color: #555;
-}
-
-@media (max-width: 768px) {
-  .unique-heading {
-    font-size: 3rem;
-  }
-
-  .unique-figcaption {
-    font-size: 1.2rem;
-  }
-}
-</style>
 
 
 

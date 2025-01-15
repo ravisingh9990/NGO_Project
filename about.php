@@ -67,10 +67,9 @@
           <div class="owl-carousel causes-carousel">
             <div class="causes-item">
               <div class="causes-img">
-                <img src="https://media.licdn.com/dms/image/v2/C5103AQFTPGljWSpCRw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1531568730829?e=1741219200&v=beta&t=ARHKdTOHeFAlA-yGv6Ec_UQnXGsgWjraKCYO4qEoFNs" alt="Image">
+                <img src="img/management/gauravJoshi.png" alt="Image">
               </div>
               <br>
-              
               <div class="causes-text collapsible-section">
                 <h3>Gaurav Joshi, Co-founder & Managing Director</h3>
                 <p class="collapsible-content">A strategic thinker and seasoned international developmental professional with more than 20 years of experience, providing decisive leadership, management and guidance with a proven ability to run large social development projects and experience in South Asia, with experience of working with United Nations (Unicef, UNDP, ILO), Govt, private sector (FICCI, CII, BRICS Business Council, donor agencies, civil society organizations and Media.</p>
@@ -79,39 +78,66 @@
             </div>
             <div class="causes-item">
               <div class="causes-img">
-                <img src="https://media.licdn.com/dms/image/v2/D5603AQEc1n4NUKIBew/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1730747551190?e=1741219200&v=beta&t=x7QmtOOEMCteOvF1QHnMYTbAB09GyiA3dX3yONOjdtA" alt="Image">
+                <img src="img/management/aashishPurohit.png" alt="Image">
               </div>
               <br>
               <div class="causes-text collapsible-section">
-                <h3>Dr Pranay Kumar, Sr. Consultant (GIS)</h3>
-                <p class="collapsible-content">Dr Pranay Kumar is Sr. Consultant (GIS) with Global Pathfields and has wide experience in the areas of GIS & Remote Sensing, Web GIS, Mobile Base Data capturing Module ,Instrumental Survey Techniques , MIS Data Analysis & Cartography. Dr. Pranay Kumar had been a GIS Specialist and senior GIS Programmer in National Informatic Centre (Unit of Govt of India) for 5 years and another 5 Years in Corporate Sector & had held high-level positions in NIC Patna in the field of GIS. Recently he received Gold medal from the Government of India for the innovative use of GIS technology in E-governance. He has been actively involved in around Eighty Seven projects pertaining to GIS in NIC, Patna, namely iBHUGOAL, ePanchayat etc. Most the GIS and IT based projects of Government of Bihar. He has vast knowledge and expertise in road network designing to infra structure mapping (infra structure mapping includes electricity, telecom, transportation, pipelines, railway networks etc).</p>
+                <h3>Aashish Purohit, Position</h3>
+                <p class="collapsible-content">Aashish Purohit is Sr. Consultant (GIS) with Global Pathfields and has wide experience in the areas of GIS & Remote Sensing, Web GIS, Mobile Base Data capturing Module ,Instrumental Survey Techniques , MIS Data Analysis & Cartography. Dr. Pranay Kumar had been a GIS Specialist and senior GIS Programmer in National Informatic Centre (Unit of Govt of India) for 5 years and another 5 Years in Corporate Sector & had held high-level positions in NIC Patna in the field of GIS. Recently he received Gold medal from the Government of India for the innovative use of GIS technology in E-governance. He has been actively involved in around Eighty Seven projects pertaining to GIS in NIC, Patna, namely iBHUGOAL, ePanchayat etc. Most the GIS and IT based projects of Government of Bihar. He has vast knowledge and expertise in road network designing to infra structure mapping (infra structure mapping includes electricity, telecom, transportation, pipelines, railway networks etc).</p>
                 <span class="toggle-button">Read More</span>
               </div>
             </div>
             <div class="causes-item">
               <div class="causes-img">
-                <img src="https://www.globalpathfields.org/img/pic2.jpg" alt="Image">
+                <img src="img/management/jitenderKumar.png" alt="Image">
               </div>
               <br>
               <div class="causes-text collapsible-section">
-                <h3>Deepti, Sr. Consultant</h3>
-                <p class="collapsible-content">Deepti is a senior consultant (Resource mobilization and Partnership Management )with Global Pathfields. She has 15 years of experience in resource mobilization, partnerships & knowledge management for DRR and Climate change, education, agriculture, water & sanitation, and urban development sectors. She has designed programs for key developmental problems; developed concept note/ EoI documents, proposals, fact sheets, newsletters, web-content, outreach material for digital and print media; and participated in conferences. She has developed documents for UN agencies, European Commission, World Bank, Asian Development Bank, African Development Bank, Government agencies, & private sector across the world.
+                <h3>Jitender Kumar</h3>
+                <p class="collapsible-content">Jitender is a senior consultant (Resource mobilization and Partnership Management )with Global Pathfields. She has 15 years of experience in resource mobilization, partnerships & knowledge management for DRR and Climate change, education, agriculture, water & sanitation, and urban development sectors. She has designed programs for key developmental problems; developed concept note/ EoI documents, proposals, fact sheets, newsletters, web-content, outreach material for digital and print media; and participated in conferences. She has developed documents for UN agencies, European Commission, World Bank, Asian Development Bank, African Development Bank, Government agencies, & private sector across the world.
 
-                  Deepti has worked with key developmental organizations like Development Alternatives, UNICEF and RMSI and has contributed to programme development and planning & monitoring. She has played key role in developing partnerships in different parts of the world. Deepti has a deep understanding and knowledge of procurement styles and expected proposal content of major multilateral and bilateral funding agencies.</p>
+                Jitender has worked with key developmental organizations like Development Alternatives, UNICEF and RMSI and has contributed to programme development and planning & monitoring. She has played key role in developing partnerships in different parts of the world. Deepti has a deep understanding and knowledge of procurement styles and expected proposal content of major multilateral and bilateral funding agencies.</p>
                   <span class="toggle-button">Read More</span>
                 </div>
             </div>
             <div class="causes-item">
               <div class="causes-img">
-                <img src="https://www.globalpathfields.org/img/pic4.jpg" alt="Image">
+                <img src="img/management/preetiSagore.png" alt="Image">
               </div>
               <br>
-            
               <div class="causes-text collapsible-section">
-                <h3>Ms. Rohini Rangachari Karnik, Program Officer</h3>
+                <h3>Preeti Sagore, Position</h3>
                 <p class="collapsible-content">Holding a Masters in European Business Law from Aix-en-Provence, France and French Literature from New York University, Rohini Rangachari Karnik has excellent oral and written communication skills in English and French that she has used in her work in Knowledge Management at Development Alternatives, in the legal profession and in editing books at Sage Publications and as a freelancer.
 
-                  She has edited various publications and books highlighting the struggle of disadvantaged communities such as Human Trafficking, Micro Finance, and Political Movements, amongst others. She has also authored published articles and book reviews.
+                  He has edited various publications and books highlighting the struggle of disadvantaged communities such as Human Trafficking, Micro Finance, and Political Movements, amongst others. She has also authored published articles and book reviews.
+                  </p>
+                  <span class="toggle-button">Read More</span>
+              </div>
+            </div>
+            <div class="causes-item">
+              <div class="causes-img">
+                <img src="img/management/ritaLehri.png" alt="Image">
+              </div>
+              <br>
+              <div class="causes-text collapsible-section">
+                <h3>Rita Lehri, Position</h3>
+                <p class="collapsible-content">Holding a Masters in European Business Law from Aix-en-Provence, France and French Literature from New York University, Rohini Rangachari Karnik has excellent oral and written communication skills in English and French that she has used in her work in Knowledge Management at Development Alternatives, in the legal profession and in editing books at Sage Publications and as a freelancer.
+
+                  He has edited various publications and books highlighting the struggle of disadvantaged communities such as Human Trafficking, Micro Finance, and Political Movements, amongst others. She has also authored published articles and book reviews.
+                  </p>
+                  <span class="toggle-button">Read More</span>
+              </div>
+            </div>
+            <div class="causes-item">
+              <div class="causes-img">
+                <img src="img/management/yuktaburvey.png" alt="Image">
+              </div>
+              <br>
+              <div class="causes-text collapsible-section">
+                <h3>Yukta Burvey, Position</h3>
+                <p class="collapsible-content">Holding a Masters in European Business Law from Aix-en-Provence, France and French Literature from New York University, Rohini Rangachari Karnik has excellent oral and written communication skills in English and French that she has used in her work in Knowledge Management at Development Alternatives, in the legal profession and in editing books at Sage Publications and as a freelancer.
+
+                  He has edited various publications and books highlighting the struggle of disadvantaged communities such as Human Trafficking, Micro Finance, and Political Movements, amongst others. She has also authored published articles and book reviews.
                   </p>
                   <span class="toggle-button">Read More</span>
               </div>
